@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# GUI / runtime (use runtime_settings.example.json in repo)
+AI Bot/runtime_settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+
+# Logs and temp output
+AI Bot/logs/
+*.log
+
+# PyInstaller / build
+AI Bot/build/
+AI Bot/dist/
+*.exe
+*.spec.bak
+
+# Local trade history and training data (optional)
+AI Bot/signal_history.json
+AI Bot/trades.json
+AI Bot/simulation_*.json
+AI Bot/simulation_*.jsonl
+AI Bot/ml_predictions.jsonl
+AI Bot/ml_training_data.jsonl
+AI Bot/ml_predictions.log
+
+# Internal dev notes (optional)
+AI Bot/mistakes.md
+
+# Internal docs only
+docs/internal/
